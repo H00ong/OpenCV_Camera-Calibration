@@ -6,9 +6,12 @@ This is the camera calibration using open cv
 * **The number of selected images:** 4  
 * **RMS error:** 1.3263262575554606  
 * **Camera matrix (K):**
-| 463.77380377 | 0           | 485.86564978 |
-| 0            | 462.2257834 | 252.51163683 |
-| 0            | 0           | 1            |
+
+| | | |
+|-|-|-|
+|463.77380377|0|485.86564978|
+|0|462.2257834|252.51163683|
+|0|0|1|
 
 
 ### Distortion Coefficient
