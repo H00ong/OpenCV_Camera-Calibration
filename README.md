@@ -24,6 +24,9 @@ This is the camera calibration and distortion correction using open cv
 * Camera Caliberation을 통해 얻은 카메라 행렬(K)과 왜곡 계수(distortion coefficient)를 기반으로 
 cv.undistort(frame, K, dist_coeff) 함수를 적용하여 입력 영상의 렌즈 왜곡을 보정.
 보정된 결과는 undistortedchessboard.mp4 파일로 생성. (newchessboard.mp4는 원본 영상)
+* newchessboard.mp4 - 원본영상
+* undistortedchessboard.mp4 - 4번 select 하여 원본을 수정한 영상
+* 위의 결과 행렬과 왜곡 계수와는 달리 새로 45 select를 수행하여 원본을 수정한 영상
 
 ### ScreenShots
 * Camera Caliberation Screenshots
