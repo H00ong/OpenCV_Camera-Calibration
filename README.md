@@ -1,5 +1,5 @@
 # OpenCV_Camera-Calibration
-This is the camera calibration using open cv
+This is the camera calibration and distortion correction using open cv
 
 ## Camera Calibration Results
 
@@ -34,3 +34,6 @@ cv.undistort(frame, K, dist_coeff) 함수를 적용하여 입력 영상의 렌�
 
 ### 한계점
 * 이상하게 원래의 영상보다 오히려 왜곡되보임.
+* selected를 45번 수행하여 새로운 비디오 newUndistortedchessboard.mp4로 확인하니 초반부분에서는 왜곡이 있지만
+중반으로 갈수록 체스보드 내에서의 왜곡이 줄으듦.
+* undistortedchessboard.mp4는 select한 횟수가 4번으로 비디오를 수정한 것.
