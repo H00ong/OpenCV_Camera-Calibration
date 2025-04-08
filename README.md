@@ -26,7 +26,7 @@ cv.undistort(frame, K, dist_coeff) 함수를 적용하여 입력 영상의 렌�
 보정된 결과는 undistortedchessboard.mp4 파일로 생성. (newchessboard.mp4는 원본 영상)
 * newchessboard.mp4 - 원본영상
 * undistortedchessboard.mp4 - 4번 select 하여 원본을 수정한 영상
-* 위의 결과 행렬과 왜곡 계수와는 달리 새로 45 select를 수행하여 원본을 수정한 영상
+* newUndistortedchessboard.mp위의 결과 행렬과 왜곡 계수와는 달리 새로 45 select를 수행하여 원본을 수정한 영상
 
 ### ScreenShots
 * Camera Caliberation Screenshots
